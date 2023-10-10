@@ -35,7 +35,7 @@
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "\u00c1rbol",
-      "output": "'Árbol' comienza con 'A'",
+      "output": "'\uc001rbol' comienza con 'A'",
       "comparison": "included",
       "timeout": 1,
       "points": 1

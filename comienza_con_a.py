@@ -6,7 +6,7 @@ Comienza con A
 palabra = input("Escribe una palabra: ")
 
 # Proceso
-if palabra[0] == "A":
+if palabra[0].lower() in "aá":
     comienza = "comienza"
 else:
     comienza = "no comienza"

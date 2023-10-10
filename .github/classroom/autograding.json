@@ -34,7 +34,7 @@
       "name": "Test4",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
-      "input": "Árbol",
+      "input": "\u00c1rbol",
       "output": "'Árbol' comienza con 'A'",
       "comparison": "included",
       "timeout": 1,

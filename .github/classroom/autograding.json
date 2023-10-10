@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Test1",
+      "name": "Ana",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "Ana",
@@ -11,7 +11,7 @@
       "points": 1
     },
     {
-      "name": "Test2",
+      "name": "árbol",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "árbol",
@@ -21,7 +21,7 @@
       "points": 1
     },
     {
-      "name": "Test3",
+      "name": "Berenjena",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "Berenjena",
@@ -31,17 +31,17 @@
       "points": 1
     },
     {
-      "name": "Test4",
+      "name": "Árbol'",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
-      "input": "\u00c1rbol",
-      "output": "Árbol' comienza con 'A'",
+      "input": "Árbol",
+      "output": "'Árbol' comienza con 'A'",
       "comparison": "included",
       "timeout": 1,
       "points": 1
     },
     {
-      "name": "Test5",
+      "name": "androide",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "androide",
@@ -51,7 +51,7 @@
       "points": 1
     },
     {
-      "name": "Test7",
+      "name": "123",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "123",

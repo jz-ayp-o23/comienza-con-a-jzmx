@@ -7,7 +7,7 @@ palabra = input("Escribe una palabra: ")
 
 # Proceso
 if palabra[0].lower() in "aá":
-    comienza = "comienza"
+    comienza = "comienz" + "a"
 else:
     comienza = "no comienza"
 

@@ -1,7 +1,7 @@
-{
+x = """{
   "tests": [
     {
-      "name": "Ana",
+      "name": "Test1",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "Ana",
@@ -11,7 +11,7 @@
       "points": 1
     },
     {
-      "name": "árbol",
+      "name": "Test2",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "árbol",
@@ -21,7 +21,7 @@
       "points": 1
     },
     {
-      "name": "Berenjena",
+      "name": "Test3",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "Berenjena",
@@ -31,7 +31,7 @@
       "points": 1
     },
     {
-      "name": "Árbol'",
+      "name": "Test4",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "Árbol",
@@ -41,7 +41,7 @@
       "points": 1
     },
     {
-      "name": "androide",
+      "name": "Test5",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "androide",
@@ -51,7 +51,7 @@
       "points": 1
     },
     {
-      "name": "123",
+      "name": "Test7",
       "setup": "",
       "run": "LANG=en_US.utf8 timeout 3m python3 comienza_con_a.py",
       "input": "123",
@@ -62,3 +62,6 @@
     }
   ]
 }
+"""
+print(len(x))
+print(x[930:950])
